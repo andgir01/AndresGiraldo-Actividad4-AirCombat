@@ -1,0 +1,225 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 24.09.2014 18:54:31
+
+newmtl body
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0039 0.0353
+	Kd 0.0314 0.0118 0.0784
+	Ks 0.6482 0.7847 0.8632
+	Ke 0.0000 0.0000 0.0000
+	map_Ka color1a.jpg
+	map_Kd color1a.jpg
+	map_Ks color1a.jpg
+	map_bump -bm 0.3100 color1a.jpg
+	bump -bm 0.3100 color1a.jpg
+	map_refl Map__3_Falloff.jpg
+
+newmtl side
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0039 0.0353
+	Kd 0.0314 0.0118 0.0784
+	Ks 0.6482 0.7847 0.8632
+	Ke 0.0000 0.0000 0.0000
+	map_Ka color3.jpg
+	map_Kd color3.jpg
+	map_Ks color3.jpg
+	map_bump -bm 0.4800 color3.jpg
+	bump -bm 0.4800 color3.jpg
+	map_refl Map__3_Falloff.jpg
+
+newmtl bottom
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0039 0.0353
+	Kd 0.0314 0.0118 0.0784
+	Ks 0.6482 0.7847 0.8632
+	Ke 0.0000 0.0000 0.0000
+	map_Ka color2.jpg
+	map_Kd color2.jpg
+	map_Ks color2.jpg
+	map_bump -bm 0.4800 color2.jpg
+	bump -bm 0.4800 color2.jpg
+	map_refl Map__3_Falloff.jpg
+
+newmtl 2___Default
+	Ns 68.0000
+	Ni 1.5000
+	d 0.1100
+	Tr 0.8900
+	Tf 0.1100 0.1100 0.1100 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0667 0.0667 0.0667
+	Ks 0.8550 0.8550 0.8550
+	Ke 0.0000 0.0000 0.0000
+	map_refl -s 1.0000 2.0000 1.0000 reflex.jpg
+
+newmtl 10___Default
+	Ns 41.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8431 0.8431 0.8431
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.2700 0.2700 0.2700
+	Ke 0.5294 0.5294 0.5294
+	map_Ka Map__25_Gradient.jpg
+	map_Kd Map__25_Gradient.jpg
+	map_Ke Map__25_Gradient.jpg
+	map_refl -s 2.0000 2.0000 1.0000 reflex.jpg
+
+newmtl 11___Default
+	Ns 17.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2980 0.1098 0.5804
+	Ks 0.4311 0.4574 0.4781
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Map__27_Gradient.jpg
+	map_Kd Map__27_Gradient.jpg
+	map_bump -bm 0.3800 AMMO.JPG
+	bump -bm 0.3800 AMMO.JPG
+	map_refl -s 2.0000 2.0000 1.0000 reflex.jpg
+
+newmtl blue
+	Ns 65.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0275 0.0157 0.1412
+	Kd 0.3020 0.1765 0.9333
+	Ks 0.5439 0.6584 0.7243
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__3_Falloff.jpg
+
+newmtl 1___Default
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0039 0.0353
+	Kd 0.0314 0.0118 0.0784
+	Ks 0.6482 0.7847 0.8632
+	Ke 0.0000 0.0000 0.0000
+	map_Ka color1.jpg
+	map_Kd color1.jpg
+	map_Ks color1.jpg
+	map_bump -bm 0.4800 color1.jpg
+	bump -bm 0.4800 color1.jpg
+	map_refl Map__3_Falloff.jpg
+
+newmtl tail
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0039 0.0353
+	Kd 0.0314 0.0118 0.0784
+	Ks 0.6482 0.7847 0.8632
+	Ke 0.0000 0.0000 0.0000
+	map_Ka color4.jpg
+	map_Kd color4.jpg
+	map_Ks color4.jpg
+	map_bump -bm 0.3100 color4.jpg
+	bump -bm 0.3100 color4.jpg
+	map_refl Map__3_Falloff.jpg
+
+newmtl 14___Default
+	Ns 86.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0410 0.0410 0.0410
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Map__37_Gradient.jpg
+	map_Kd grey.jpg
+	map_bump -bm 0.4200 grey.jpg
+	bump -bm 0.4200 grey.jpg
+
+newmtl suit
+	Ns 65.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0706 0.0431 0.2196
+	Ks 0.5439 0.6584 0.7243
+	Ke 0.0000 0.0000 0.0000
+	map_Ka suit.jpg
+	map_Kd suit.jpg
+	map_refl Map__3_Falloff.jpg
+
+newmtl Metal_Chrome
+	Ns 42.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2431 0.2431 0.2431
+	Ks 0.5130 0.5130 0.5130
+	Ke 0.0000 0.0000 0.0000
+	map_Kd Map__43_Gradient.jpg
+	map_refl Lakerem.jpg
+
+newmtl screen
+	Ns 84.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0667 0.0392 0.2078
+	Ks 0.7243 0.7243 0.7243
+	Ke 0.0000 0.0000 0.0000
+	map_Ka screen.jpg
+	map_Kd screen.jpg
+	map_refl Map__3_Falloff.jpg
+
+newmtl Metal_Black_Plain
+	Ns 82.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0863 0.0353 0.0353
+	Ks 0.2340 0.2340 0.2340
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Map__12_Noise.jpg
+	map_Kd Map__12_Noise.jpg
